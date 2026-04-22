@@ -1,11 +1,11 @@
 name: khaju
-  on: 
-    push: 
+on: 
+   push: 
     branches: [main]
- jobs: 
+jobs: 
 demo:
 runs-on: ubuntu-latest
 
- steps:  
- - name: Greeting
-  run: echo "hello"
+steps:  
+- name: Greeting
+run: echo "hello"
